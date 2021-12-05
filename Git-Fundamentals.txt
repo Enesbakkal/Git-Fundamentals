@@ -1,0 +1,41 @@
+Necessary Git Commands 
+
+git add. // Changes on your current branch can be added by this command ,
+
+git status // To learn current directory for your git
+
+git commit -m "Message commit" // Before pushing any changes made write a message for pushing and explain current branch's objective
+
+git push origin My_Branch  // To push changes made on your computer to remote repsitory
+
+**********************************************************************************************************
+
+git checkout dev // Make your current repository  dev (only if is is in your current local
+
+git pull origin dev // pull any changes that your pairs made from remote repository
+
+git merge My_Branch // Merge your changes and remote changes together
+
+git push origin dev // 
+
+**********************************************************************************************************
+
+git checkout master 
+
+git pull origin master 
+                            // Shift current branch to master // pull remote changes // git checkout My_Branch 
+git checkout My_Branch
+
+git rebase master // we can do it to learn if there is any conflict and we can controll the conflicts via Git
+
+**********************************************************************************************************
+
+git clone <https://name-of-the-repository-link> // to download a project from Github
+
+git branch <branch-name> // create a branch
+
+git branch --list // list all branches on repository
+
+git add <file>
+
+git revert 3321844
